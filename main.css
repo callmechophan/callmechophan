@@ -1,0 +1,28 @@
+html {
+    font-size: 14px;
+}
+body {
+    background-color: #FFFFFF;
+    color: #111111;
+}
+@font-face {
+    font-family: 'BentonSans Light';
+    src: url(/font/BentonSans\ Light.otf);
+}
+@font-face {
+    font-family: 'BentonSans Book';
+    src: url(/font/BentonSans\ Book.otf);
+}
+@font-face {
+    font-family: 'BentonSans Regular';
+    src: url(/font/BentonSans\ Regular.otf);
+}
+.font-light {
+    font-family: 'BentonSans Light', sans-serif;
+}
+.font-book {
+    font-family: 'BentonSans Book', sans-serif;
+}
+.font-regular {
+    font-family: 'BentonSans Regular', sans-serif;
+}
