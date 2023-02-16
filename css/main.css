@@ -1,0 +1,175 @@
+@import url('https://fastly-cloud.typenetwork.com/projects/7027/fontface.css?63ea6dde');
+@import url('https://fonts.cdnfonts.com/css/rockwell-nova');
+@font-face {
+    font-family: 'Rockwell Nova Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Rockwell Nova Light'), url('https://fonts.cdnfonts.com/s/14413/RockwellNova-Light.woff') format('woff');
+}
+@import url('https://db.onlinewebfonts.com/c/980f41a37f1c14ff5c0aefec5c2239e3?family=Tableau+Book');
+@font-face {
+    font-family: "Tableau Book"; 
+    src: url("https://db.onlinewebfonts.com/t/980f41a37f1c14ff5c0aefec5c2239e3.ttf");
+}
+@import url('https://www.callmechophan.com');
+@font-face {
+    font-family: "Tableau Book"; 
+    src: url("https://www.callmechophan.com/font/Tableau Book.ttf");
+}
+.font-title {
+    font-family: 'Tableau Book';
+}
+.font-content {
+    font-family: 'Tableau Book';
+    font-size: 1rem;
+}
+.font-bold {
+    font-family: 'Tableau Book';
+    font-size: 1.75rem;
+}
+.font-regular {
+    font-family: 'Tableau Book'
+}
+body {
+    width: 95%;
+    margin: 0 auto;
+    color: #111111;
+    background-color: #FFFFFF;
+}
+header {
+    min-height: 70px;
+}
+.header {
+    display: flex;
+}
+.header-list {
+    list-style: none;
+}
+.header-item {
+    padding: 25px 40px;
+    position: relative;
+    top: 18vh;
+}
+.header-item, 
+.header-item-link {
+    color: #111111;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.header-item:hover, 
+.header-item-link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-list {
+    list-style: none;
+    padding-left: 0;
+}
+.navbar-item {
+    margin: 0;
+}
+.navbar-item, 
+.navbar-item-link {
+    font-size: 1rem;
+    color: #111111;
+    text-decoration: none;
+}
+.navbar-item:hover, 
+.navbar-item-link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.table {
+    width: 60%;
+}
+.tab {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.tab-right {
+    margin-right: 80px;
+}
+.resume {
+    width: 100%;
+    height: 1000px;
+}
+.resume-embed {
+    width: 100%;
+    height: 100%;
+}
+.hamburger-menu {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 50px;
+    position: relative;
+    cursor: pointer;
+    top: 20px;
+}
+.hamburger-bar {
+    width: 60%;
+    height: 1px;
+    background-color: #111111;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.6s, opacity 0.8s, top 0.6s;
+}
+.bar-top {
+    top: 25%;
+}
+.bar-bottom {
+    top: 75%;
+}
+.hamburger-menu.active .bar-top {
+    transform: translate(-50%, -50%) rotate(-315deg);
+    top: 50%;
+}
+.hamburger-menu.active .bar-mid {
+    opacity: 0;
+}
+.hamburger-menu.active .bar-bottom {
+    transform: translate(-50%, -50%) rotate(-225deg);
+    top: 50%;
+}
+.header-menu {
+    position: fixed;
+    top: 55px;
+    left: -100%;
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100%;
+    transition: left 0.5s;
+}
+.header-menu.active {
+    left: 0;
+}
+.col {
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+.col-chil {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+.col-link {
+    display: flex;
+    justify-content: flex-end;
+    color: #111111;
+    text-decoration: none;
+}
+.col-link:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.project-name {
+    text-align: center;
+}
